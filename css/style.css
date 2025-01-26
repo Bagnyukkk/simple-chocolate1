@@ -1,0 +1,283 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fafafa;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  width: 1168px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.header-container {
+display: flex;
+align-items: center;
+
+}
+
+
+.nav {
+ display: flex; 
+}
+
+.chocolate {
+
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+}
+
+.nav-list {
+  display: flex;
+  gap: 24px;
+  margin-left: 365px;
+}
+
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: -0.02em;
+  padding: 16px 0;
+}
+
+.social-list {
+  display: flex;
+  margin-left: auto;
+  gap: 14px;
+}
+
+.hero-section {
+  background: rgba(17, 17, 17, 0.4);
+}
+
+.hero-title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  max-width: 484px;
+  margin-bottom: 32px;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  padding: 14px 40px;
+}
+
+.btn-buy {
+  border-radius: 100px;
+  background: rgb(253, 146, 34);
+  border: none;
+}
+
+.btn-made {
+  color: #fff;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100px;
+}
+
+.scroll {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.03em;
+}
+
+.scroll-icon {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.achievement-section {
+  background: rgb(30, 24, 35);
+}
+
+.achievement-title {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.achievement-paragraph {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title-accent {
+  color: rgb(253, 146, 34);
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.subtitle-accent {
+  color: #fff;
+}
+
+.ingridients-item {
+  border-radius: 15px;
+}
+
+.orange-cart {
+  background: rgb(253, 146, 34);
+}
+
+.white-cart {
+  border: 1px solid rgb(253, 146, 34);
+}
+
+.black-cart {
+  background: rgb(30, 24, 35);
+}
+
+.made-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.made-item {
+  color: #111111;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.product-paragraph {
+  color: rgba(17, 17, 17, 0.7);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+}
+
+.btn-product {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  box-sizing: border-box;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  background: rgb(250, 250, 250);
+}
+
+.reviews-paragraph {
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.btn-reviews {
+  color: #111111;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgb(253, 146, 34);
+  border-radius: 100px;
+}
+
+.footer-section {
+  background: rgb(30, 24, 35);
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+}
+
+.footer-paragraph {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.footer-contact {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+}
+
+.nav-item-accent {
+  color: #ffffff;
+}
